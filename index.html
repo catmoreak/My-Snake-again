@@ -7,11 +7,17 @@
         <link rel="stylesheet" href="/style.css" />
     </head>
     <body>
-        <div class="score">0</div>
+        <div class="scoreboard">
+            <span class="board-label">SCORE</span>
+            <div class="score"></div>
+        </div>
         <div class="container"></div>
         <div class="gameOver">
-            <p>Game Over</p>
-            <button onClick="restart()">restart</button>
+            <p class="ft">FULL TIME</p>
+            <p class="final-score">0</p>
+            <p class="commentary"></p>
+            <button onClick="restart()">▶ Rematch</button>
+            
         </div>
         <script src="/script.js"></script>
     </body>
